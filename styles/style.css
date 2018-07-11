@@ -10,15 +10,28 @@ body {
 h1 {
     float: right;
     margin: 0;
-    text-align: right color: gold;
+    text-align: right;
+    color: gold;
 }
 
 .pictures {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    /*width: 100;*/
 }
 
 .pic {
-    width: 30%;
+    width: 100%;
+    align-items: center;
+    object-fit: cover;
+    height: 100%;
+}
+
+.picWrapper {
+    border: 1.2px solid gold;
+    flex-shrink: 1;
+    width: 25%;
 }
