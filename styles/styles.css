@@ -1,0 +1,29 @@
+.group {
+    width: 70%;
+    padding-top: 10%;
+    padding-left: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*.group{*/
+/*    height:700px;*/
+/*}*/
+
+.navbar{
+    list-style-type:none;
+    display:flex;
+    justify-content:space-around;
+    bottom: 0;
+}
+.nav-item{
+    align-items:center;
+}
+
+nav
+{ background-color:#333;
+    padding:1%;
+    border-top: solid 12px black; 
+    text-decoration: none;
+    color: gold;
+}
