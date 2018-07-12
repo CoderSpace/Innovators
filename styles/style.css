@@ -1,26 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
-    background-color: RoyalBlue;
+    background-color: #333;
     width: 100%;
     height: 100%;
     margin: 0;
 }
 
 h1 {
-    float: right;
+    background-color: #333;
     margin: 0;
-    text-align: right;
+    text-align: center;
     color: gold;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+.rules {
+    text-align: center;
+    border-left: solid .1em gold;
+    border-right: solid .1em gold;
+    width: 25%;
+    background-color: #333;
+    color: gold;
+    font-family: Montserrat;
+    top: 20%;
+}
+
+.values {
+    text-align: center;
+    border-left: solid .1em gold;
+    border-right: solid .1em gold;
+    width: 25%;
+    background-color: #333;
+    color: gold;
+    font-family: Montserrat;
+    top: 20%;
 }
 
 .pictures {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    flex-direction: wrap;
+    margin: 2em auto;
     align-items: center;
-    height: 100vh;
+    /*height: 100vh;*/
     overflow: hidden;
-    /*width: 100;*/
+    width: 90%;
+    
 }
 
 .pic {
@@ -31,7 +59,34 @@ h1 {
 }
 
 .picWrapper {
-    border: 1.2px solid gold;
+    /*border: 1.2px solid gold;*/
     flex-shrink: 1;
     width: 25%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 20em;
+}
+.container .song {
+    order:2;
+}
+
+.container .values {
+    order:3;
+}
+
+.song {
+    color:gold;
+    border-bottom: solid .1em gold;
+    border-top: solid .1em gold;
+}
+
+.quote {
+    color:gold;
+    padding:2%;
+    text-align:center;
 }
