@@ -48,7 +48,7 @@ h1 {
     /*height: 100vh;*/
     overflow: hidden;
     width: 90%;
-    
+
 }
 
 .pic {
@@ -71,22 +71,29 @@ h1 {
     align-items: center;
     min-height: 20em;
 }
+
 .container .song {
-    order:2;
+    order: 2;
 }
 
 .container .values {
-    order:3;
+    order: 3;
 }
 
 .song {
-    color:gold;
+    color: gold;
     border-bottom: solid .1em gold;
     border-top: solid .1em gold;
 }
 
 .quote {
-    color:gold;
-    padding:2%;
-    text-align:center;
+    color: gold;
+    padding: 3%;
+    text-align: center;
+}
+
+.team {
+    text-align: center;
+    color: gold;
+    text-decoration: underline;
 }
