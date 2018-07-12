@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
@@ -35,3 +37,27 @@ h1 {
     flex-shrink: 1;
     width: 25%;
 }
+
+
+body {
+     position: relative;
+  height: 100%;
+  margin: 0;
+    background-color:royalblue;
+  background-color: #000052;
+background-image: url("https://www.transparenttextures.com/patterns/dirty-old-black-shirt.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */;
+}
+h1 {
+   color:gold; 
+}
+
+
+
+
+
+img{
+  height: 100px; 
+  width: 100px; 
+}
+
