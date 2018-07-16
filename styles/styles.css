@@ -20,6 +20,7 @@
 }
 .nav-item{
     align-items:center;
+    text-align: center;
 }
 
 nav { 
@@ -28,7 +29,7 @@ nav {
     color: #FFDE00;
     margin: 0;
     height: 6em;
-    border-bottom: solid #FFDE00 7px;
+    border-bottom: solid #FFDE00 9px;
     /*text-align: center;*/
     vertical-align: baseline;
     display:flex;
@@ -42,14 +43,16 @@ nav {
     justify-content:space-around;
 }
 
-ol  {
+.ul {
     font-size: 1.5em;
     /*text-align: center;*/
+    justify-content:space-around;
+    
 }
 
 a:link {
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 2em;
     /*text-align: center;*/
 }
 
@@ -59,15 +62,17 @@ li a {
 }
 
 footer { 
-    border-top: solid 6px black;
+    border-top: solid 9px #FFDE00;
     position:fixed;
     bottom:0;
    justify-content:space-around;
    display:flex;
    margin: auto;
    align-content:flex-end;
-   background-color: orange;
+   background-color: #333;
    flex-wrap:wrap;
    width:100%;
-   
-} 
+   height: 50px;
+  }
+  
+ 
