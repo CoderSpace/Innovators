@@ -1,12 +1,13 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
-    background-color: RoyalBlue;
+    background-color: #333;
     width: 100%;
     height: 100%;
     margin: 0;
+    position: relative;
+    background-color: #000052;
+    background-image: url("https://www.transparenttextures.com/patterns/dirty-old-black-shirt.png");
 }
 
 h1 {
@@ -38,26 +39,90 @@ h1 {
     width: 25%;
 }
 
-
-body {
-     position: relative;
-  height: 100%;
-  margin: 0;
-    background-color:royalblue;
-  background-color: #000052;
-background-image: url("https://www.transparenttextures.com/patterns/dirty-old-black-shirt.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */;
-}
 h1 {
-   color:gold; 
+    color: gold;
 }
 
 
 
 
 
-img{
-  height: 100px; 
-  width: 100px; 
+img {
+    height: 100px;
+    width: 100px;
 }
 
+.group {
+    width: 70%;
+    padding-top: 10%;
+    padding-left: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*}*/
+    /*.group{*/
+    /*    height:700px;*/
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item {
+    align-items: center;
+}
+
+.nav {
+    background-color: #333;
+    text-decoration: none;
+    color: #FFDE00;
+    margin: 0;
+    height: 6em;
+    border-bottom: solid #FFDE00 7px;
+    /*text-align: center;*/
+    vertical-align: baseline;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ul {
+    font-size: 1.5em;
+    /*text-align: center;*/
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 1.5em;
+    /*text-align: center;*/
+}
+
+li a {
+    color: #FFDE00;
+    /*text-align: center;*/
+}
+
+footer {
+    border-top: solid 6px black;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+    align-content: flex-end;
+    background-color: orange;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
