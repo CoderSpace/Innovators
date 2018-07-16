@@ -86,7 +86,7 @@ img{
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: Black;
+  background-color: transparent;
   overflow: hidden;
   width: 90%;
   height:0;
