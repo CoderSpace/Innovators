@@ -3,31 +3,37 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
-    background-color: RoyalBlue;
+    background: linear-gradient( 90deg, lightblue, lightgreen, pink);
     width: 100%;
     height: 100%;
     margin: 0;
 }
 
 h1 {
-    float: right;
     margin: 0;
     text-align: right;
     color: gold;
 }
-
+.contacttitle {
+    text-align: center;
+}
 .contact {
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     min-height:100vh;
     justify-content:space-around;
-    width:100%;
+    flex-wrap: wrap;
+    width: 70%;
 }
 
 .pic {
-    margin:5%;
-    width:20%;
+    height:30%;
+    width:30%;
     display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
 }
 
 .picWrapper {
@@ -41,13 +47,10 @@ body {
      position: relative;
   height: 100%;
   margin: 0;
-    background-color:royalblue;
-  background-color: #000052;
-background-image: url("https://www.transparenttextures.com/patterns/dirty-old-black-shirt.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */;
+
 }
 h1 {
-   color:gold; 
+   color:white; 
 }
 
 .group {
@@ -123,3 +126,7 @@ footer {
    width:100%;
    
 } 
+
+main {
+    padding:4%;
+}
