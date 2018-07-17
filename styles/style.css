@@ -10,12 +10,17 @@ body {
     background-image: url("https://www.transparenttextures.com/patterns/dirty-old-black-shirt.png");
 }
 
-h1 {
-    float: right;
-    margin: 0;
-    text-align: right;
-    color: gold;
-}
+/*h1 {*/
+
+/*    float: right;*/
+
+/*    margin: 0;*/
+
+/*    text-align: right;*/
+
+/*    color: gold;*/
+
+/*}*/
 
 .pictures {
     display: flex;
@@ -41,12 +46,29 @@ h1 {
 
 h1 {
     color: gold;
+    text-align: center;
 }
 
+.teaminfo {
+    display: flex;
+    color: gold;
+    justify-content: space-around;
+}
 
+.rules {
+    border-top: solid gold .025em;
+    border-bottom: solid gold .025em;
+}
 
+.song {
+    border-top: solid gold .025em;
+    border-bottom: solid gold .025em;
+}
 
-
+.values {
+    border-top: solid gold .025em;
+    border-bottom: solid gold .025em;
+}
 img {
     height: 100px;
     width: 100px;
