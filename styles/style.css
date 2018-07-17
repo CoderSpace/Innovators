@@ -43,22 +43,49 @@ body {
      position: relative;
   height: 100%;
   margin: 0;
+<<<<<<< HEAD
     background-color:#333;
   background-color: #333;
 background-image: url("https://www.transparenttextures.com/patterns/dirty-old-black-shirt.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */;
+=======
+>>>>>>> master
 }
 h1 {
    color:gold; 
 }
 
-
-
-
-
 img{
-  height: 100px; 
+  height: auto]; 
   width: 100px; 
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  overflow: hidden;
+  width: 63%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
 }
 .about-us{
     background-color:white;
@@ -108,4 +135,17 @@ img{
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 
+<<<<<<< HEAD
 }
+=======
+.text {
+  color: gold;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+>>>>>>> master
