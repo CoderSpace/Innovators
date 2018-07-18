@@ -216,23 +216,27 @@ img{
     width:20%;
     height:16.875em;
     justify-content:space-around;
+    margin-top:5%;
 }
 .noire_pic {
-    width:13%;
+    width:12%;
 }
 .maxwell_pic {
-    width:13%;
+    width:12%;
 }
 
 .jasmine_pic {
-    width:13%;
+    width:12%;
 }
 
 .taylor_pic {
-    width:13%;
+    width:12%;
 }
 
 .contacttitle{
     font-size:170%;
-    color:light ;
+    color:white ;
+}
+.background{
+    background:linear-gradient( 90deg, lightblue, pink);
 }
