@@ -14,49 +14,49 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
     overflow: hidden;
-    /*width: 100;*/
-h1 {
-    margin: 0;
-    text-align: right;
-    color: gold;
+    width: 100%;
+    margin-top:5%;
 }
+
 .contacttitle {
     text-align: center;
 }
+
 .contact {
-    display:flex;
-    flex-direction:row;
-    min-height:100vh;
-    justify-content:space-around;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    justify-content: space-around;
     flex-wrap: wrap-reverse;
     width: 70%;
 }
 
 .pic {
-    height:30%;
-    width:30%;
-    display:block;
+    height:14em;
+    display: block;
     margin-left:auto;
     margin-right:auto;
 }
 
 .picWrapper {
-    border: 1.2px solid white;
-    flex-shrink: 1;
+    /*border: 1.2px solid white;*/
+    /*flex-shrink: 1;*/
     width: 25%;
 }
 
 h1 {
     color: black;
     text-align: center;
+    padding-bottom: 3%;
 }
 
 .teaminfo {
     display: flex;
     color: black;
     justify-content: space-around;
+    flex-direction: row;
+    /*flex-basis:33.3%;*/
 }
 
 .rules {
@@ -76,10 +76,11 @@ h1 {
     border-bottom: solid white .1425em;
     font-weight: bold;
 }
-img {
-    height: 100px;
-    width: 100px;
-}
+
+/*img {*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*}*/
 
 .group {
     width: 70%;
