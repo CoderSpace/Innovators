@@ -20,8 +20,8 @@ h1 {
     flex-direction:row;
     min-height:100vh;
     justify-content:space-around;
-    flex-wrap: wrap-reverse;
-    width: 70%;
+    width:100%;
+    height:100%;
 }
 
 .pic {
@@ -127,6 +127,7 @@ footer {
 
 main {
     padding:4%;
+    min-height:100vh;
 }
 
 img{
@@ -208,4 +209,30 @@ img{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.pic{
+    /*margin-left:10%;*/
+    width:20%;
+    height:16.875em;
+    justify-content:space-around;
+}
+.noire_pic {
+    width:13%;
+}
+.maxwell_pic {
+    width:13%;
+}
+
+.jasmine_pic {
+    width:13%;
+}
+
+.taylor_pic {
+    width:13%;
+}
+
+.contacttitle{
+    font-size:170%;
+    color:light ;
 }
