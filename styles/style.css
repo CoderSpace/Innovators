@@ -149,18 +149,6 @@ li a {
     /*text-align: center;*/
 }
 
-footer {
-    border-top: solid 6px black;
-    position: fixed;
-    bottom: 0;
-    justify-content: space-around;
-    display: flex;
-    margin: auto;
-    align-content: flex-end;
-    background-color: orange;
-    flex-wrap: wrap;
-    width: 100%;
-
 
 main {
     padding:4%;
